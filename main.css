@@ -1,0 +1,349 @@
+/*----------------------------------------------------------------------------
+	main.css
+
+	this css-file contains all definitions, that are independend from the
+	colorschemes.
+
+	(c) Schlund + Partner AG
+
+
+	----------------------------------------------------------------------
+	Modified and extended by Barti Bartman for the Sports-Template
+
+	This CSS-File uses the original "Tanteks Box Modell Hack"
+	http://www.tantek.com/CSS/Examples/boxmodelhack.html
+
+	NOTE:
+	Older W3C CSS validators return errors when the voice-family property
+	is used in a 'screen' style sheet. This is an error in the W3C CSS
+	validator itself. The validator should report a warning, not an error,
+	when properties which are unsupported by a particular medium are used,
+	and this has been reported to the W3C:
+
+ ----------------------------------------------------------------------------*/
+
+/*----------------------------------------------------------------------------
+ styles for specific classes and ids
+----------------------------------------------------------------------------*/
+
+/*-- global container ------------------------------------------------------*/
+
+#container {
+    position: relative;
+    width: 771px;
+    margin: 0px auto;
+    padding: 0px;
+    background-repeat: repeat-y;
+    text-align: left;
+    overflow: hidden;
+}
+
+#header {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 251px;
+    width: 771px;
+    margin: 0px;
+    padding: 0px;
+    background-repeat: no-repeat;
+}
+
+#main_container {
+    position: absolute;
+    top: 251px;
+    left: 0px;
+    width: 771px;
+    height: 144px;
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-position: 0px top;
+}
+
+/*--- the main container is devided in sub containers ----------------------*/
+
+#sub_container2 {
+    position: relative;
+    clear: both;
+    margin: 10px 0 0 25px;
+    padding: 0;
+    width: 725px;
+    overflow: hidden;
+}
+
+#content_container {
+    margin: 0;
+    padding: 0;
+    width: 720px;
+}
+
+/*--- key visual -----------------------------------------------------------*/
+
+#key_visual {
+    position: relative;
+    margin: 0 0 0 11px;
+    height: 208px;
+    width: 749px;
+    background-repeat: no-repeat;
+}
+
+/*--- logo -----------------------------------------------------------------*/
+
+#logo {
+    position: absolute;
+    top: -28px;
+    left: 527px;
+    height: 45px;
+    width: 220px;
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+/*--- caption (as text or background image) --------------------------------*/
+
+#text_caption {
+    position: relative;
+    padding: 15px 0 15px 20px;
+    width: 515px;
+    font-family: verdana,arial,tahoma,trebuchet ms,sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/*--- main navigation ------------------------------------------------------*/
+
+#main_nav_container {
+    overflow: hidden;
+    position: relative;
+    left: 11px;
+    width: 749px;
+    padding: 0px;
+}
+
+#main_nav_list {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+#main_nav_list li {
+    float: left;
+    margin: 0px;
+    padding: 0px;
+}
+
+/*--- main navigation items ------------------------------------------------*/
+
+#main_nav_list a.main_nav_item {
+    display: block;
+    float: left;
+    height: 28px;
+    margin: 0px;
+    padding: 0px 11px 0px 11px;
+    line-height: 28px;
+    text-align: center;
+    background: transparent;
+}
+
+#main_nav_list a.main_nav_active_item {
+    display: block;
+    float: left;
+    height: 28px;
+    margin: 0px;
+    padding: 0px 11px 0px 11px;
+    line-height: 28px;
+    text-align: center;
+    background: transparent;
+}
+
+#main_nav_list a.main_nav_item:hover {
+    background: transparent;
+}
+
+/*--- subnavigation --------------------------------------------------------*/
+
+.sub_nav_container {
+    overflow: hidden;
+    clear: both;
+    position: relative;
+    left: 11px;
+    width: 749px;
+    padding: 0px;
+}
+
+.sub_nav_list {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+.sub_nav_list li {
+    float: left;
+    margin: 0px;
+    padding: 0px;
+}
+
+/*--- subnavigation items --------------------------------------------------*/
+
+.sub_nav_list a.sub_nav_item {
+    overflow: hidden;
+    float: left;
+    height: 16px;
+    margin: 0px;
+    padding: 0px 11px 0px 11px;
+    line-height: 16px;
+    text-align: center;
+}
+
+.sub_nav_list a.sub_nav_active_item {
+    overflow: hidden;
+    float: left;
+    height: 16px;
+    margin: 0px;
+    padding: 0px 11px 0px 11px;
+    line-height: 16px;
+    text-align: center;
+}
+
+.sub_nav_list a.sub_nav_item:hover {
+    background: transparent;
+}
+
+/*--- footer ---------------------------------------------------------------*/
+
+#footer {
+    z-index: 1;
+    height: 75px;
+    width: 771px;
+    margin: 0px;
+    padding: 0px;
+    background-repeat: no-repeat;
+    background-position: bottom left;
+}
+
+#footer_text {
+    width: 375px;
+    margin: 0px 30px 0px 30px;
+    padding: 25px 0px 0px 0px;
+    text-align: left;
+}
+
+/*----------------------------------------------------------------------------
+  default-styles for html-elements
+----------------------------------------------------------------------------*/
+
+/*--- body -----------------------------------------------------------------*/
+
+body#main_body {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    background-repeat: repeat-x;
+}
+
+/*--- paragraph ------------------------------------------------------------*/
+
+#content_container p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+/*--- headings -------------------------------------------------------------*/
+
+#content_container h1 {
+    margin: 0px;
+    padding: 0px 0px 0px 25px;
+    line-height: 64px;
+    background-repeat: no-repeat;
+}
+
+#content_container h2 {
+    padding: 0px 0px 0px 25px;
+    line-height: 41px;
+    background-repeat: no-repeat;
+}
+
+#content_container h3 {
+    padding: 0px 0px 0px 25px;
+    line-height: 27px;
+    background-repeat: no-repeat;
+}
+
+/*--- links ----------------------------------------------------------------*/
+
+/*--- tables ---------------------------------------------------------------*/
+
+#content_container table {
+    border-width: 1px;
+    border-style: dotted;
+    border-spacing: 0;
+}
+
+#content_container th {
+    padding: 3px 2px 3px 2px;
+    margin: 0px 0px 2px 0px;
+    border: 1px solid;
+}
+
+#content_container tr {
+    padding: 3px 2px 3px 2px;
+    /*font-size: 90%;*/
+}
+
+#content_container tr.odd {
+    padding: 3px 2px 3px 2px;
+    /*font-size: 90%;*/
+}
+
+#content_container tr.even {
+    padding: 3px 2px 3px 2px;
+    /*font-size: 90%;*/
+}
+
+#content_container td {
+    border: 1px solid;
+}
+
+/*--- forms ----------------------------------------------------------------*/
+
+#content_container fieldset {
+    display: block;
+    overflow: hidden;
+    width: 729px;
+    margin: 25px auto 0px auto;
+    padding: 0px;
+    border-width: 1px;
+    border-style: solid;
+}
+
+#content_container input {
+    border-width: 1px;
+    border-style: solid;
+}
+
+#content_container textarea {
+    border-width: 1px;
+    border-style: solid;
+}
+
+#content_container button {
+    border: 1px solid;
+}
+
+#content_container legend {
+    font-weight: bold;
+    font-style: italic;
+}
+
+#content_container label {
+    /* font-weight: bold; */
+
+}
+
+/*--------------------------------------------------------------------------*/
+/* shop vat font fixes */
+.v1_es_note, .v1_es_note span {font-size: 9px !important;}

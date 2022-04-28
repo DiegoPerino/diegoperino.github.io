@@ -1,0 +1,148 @@
+/*----------------------------------------------------------------------------
+	colorscheme1.css for colorscheme 1
+
+	this css-file contains all definitions, that depend on the colorscheme.
+
+	(c) Schlund + Partner AG
+----------------------------------------------------------------------------*/
+
+/*-- main container --------------------------------------------------------*/
+
+#container {
+    background-image: url("images/static/contentbg.gif");
+}
+
+#main_container {
+    background-image: url("images/static/maincontainerbg.gif");
+}
+
+/*--- header ---------------------------------------------------------------*/
+
+#header {
+    background-image: url("images/static/headerbg.gif");
+}
+
+/*--- main navigation ------------------------------------------------------*/
+
+#main_nav_container {
+    background-image: url("images/static/navbg.gif");
+}
+
+/*--- key visiual ----------------------------------------------------------*/
+
+/*--- logo -----------------------------------------------------------------*/
+
+/*--- caption --------------------------------------------------------------*/
+
+#text_caption {
+    color: #746859;
+}
+
+/*--- main navigation ------------------------------------------------------*/
+
+/*--- main navigation items ------------------------------------------------*/
+
+/*--- subnavigation items --------------------------------------------------*/
+
+.sub_nav_container {
+    background-color: #613927;
+}
+
+/*--- footer ---------------------------------------------------------------*/
+
+#footer {
+    background-image: url("images/static/footerbg.gif");
+}
+
+/*----------------------------------------------------------------------------
+  default-styles for html-elements
+----------------------------------------------------------------------------*/
+
+/*--- body -----------------------------------------------------------------*/
+
+body#main_body {
+    color: #000;
+    background-color: #F1E9DB;
+    background-image: url("images/static/pgbk.gif");
+}
+
+/*--- paragraph ------------------------------------------------------------*/
+
+#content_container {
+    background-color: #FAF4E9  !important;
+    color: #000000;
+}
+
+#content_container p {
+    background-color: #FAF4E9  !important;
+}
+
+/*--- headings -------------------------------------------------------------*/
+
+#content_container h1 {
+    background-image: url("images/static/header1bg.gif");
+}
+
+#content_container h2 {
+    background-image: url("images/static/header2bg.gif");
+}
+
+#content_container h3 {
+    background-image: url("images/static/header3bg.gif");
+}
+
+/*--- links ----------------------------------------------------------------*/
+
+#content_container th {
+    border-color: #FAF4E9;
+    color: #FAF4E9;
+    background-color: #613927;
+}
+
+#content_container td {
+    border-color: #FAF4E9;
+}
+
+#content_container table {
+    border-color: #FAF4E9;
+}
+
+#content_container tr.odd {
+    color: #8E411C;
+    background-color: #FDFAF5;
+}
+
+#content_container tr.even {
+    color: #8E411C;
+    background-color: #F0E8D9;
+}
+
+#content_container li {
+    color: #000;
+}
+
+/*--- forms ----------------------------------------------------------------*/
+
+#content_container fieldset {
+    border-color: #613927;
+    background-color: #FDFAF5;
+}
+
+#content_container legend {
+    color: #613927;
+}
+
+#content_container label {
+    color: #613927;
+}
+
+#content_container input {
+    border-color: #613927;
+}
+
+#content_container textarea {
+    border-color: #613927;
+}
+
+/*--------------------------------------------------------------------------*/
+
